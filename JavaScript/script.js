@@ -119,7 +119,9 @@ document.getElementById("x").innerHTML = zoned.toString();
 //Array
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("w").innerHTML = fruits;
 document.getElementById("xx").innerHTML = fruits.toString();
+document.getElementById("o").innerHTML = typeof fruits;
 
 const cars = ["Saab", "Volvo", "BMW"];
 let q = "<ul>";
