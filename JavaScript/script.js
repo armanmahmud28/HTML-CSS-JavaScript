@@ -131,3 +131,38 @@ for (let i = 0; i < cars.length; i++) {
 q += "</ul>";
 
 document.getElementById("xxx").innerHTML = q;
+
+//Set
+
+const letters = new Set(["a", "b", "c"]);
+
+document.getElementById("dem").innerHTML =
+  "The set has " + letters.size + " values.";
+
+document.getElementById("de").innerHTML = letters;
+
+let tttt = "";
+
+for (const p of letters) {
+  tttt += p + "<br>";
+}
+
+document.getElementById("demop").innerHTML = tttt;
+
+///Maps
+
+let map = new Map([
+  ["apple", 400],
+  ["banna", 500],
+  ["cherry", 700],
+]);
+
+//Maths
+
+Math.ceil(4.5); //return 5
+Math.floor(4.5); //return 4
+
+Math.trunc(4.5); //return 4(Just integer value)
+Math.sign(-4); //give 0
+Math.sign(0); //give null
+Math.sign(4); //give 1
