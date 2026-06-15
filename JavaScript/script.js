@@ -11,7 +11,7 @@ let text = "You cann't drive";
 
 if (age >= 18) {
   text = "You can drive";
-} else if (age >= 13) {
+} else if (age >= 15) {
   text = "Ok";
 } else {
   text = "Noo";
@@ -166,3 +166,22 @@ Math.trunc(4.5); //return 4(Just integer value)
 Math.sign(-4); //give 0
 Math.sign(0); //give null
 Math.sign(4); //give 1
+
+//RegExp
+
+//Error
+
+let r = 5;
+
+try {
+  r = y + 1;
+} catch (err) {
+  let text = err.name + "<br>" + err.message;
+  document.getElementById("demooo").innerHTML = text;
+}
+
+//HTML DOM
+let el = document.getElementById("title");
+el.innerText = "Hello Sir 😎";
+
+//JS Events
